@@ -98,7 +98,7 @@ Change to unzipped folder and run `bash ./install.sh`
 
 This is a preferred way as it should survive application updates.
 
-1. Open Cura library folder located at `C:\Users\your_username\AppData\Roaming\cura\4.4` (for 4.4.x, for later versions it will be different). 
+1. Open Cura library folder located at `%userprofile%\AppData\Roaming\cura\4.7` (for 4.7.x, for later versions it will be different). 
 2. Copy files from definitions, extruders and meshes folders from the downloaded ZIP file (or cloned repository) into the respective folders in Cura. You may need to create `meshes` folder first.
 3. Perform steps from post-install section below.
 
