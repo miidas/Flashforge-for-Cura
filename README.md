@@ -13,7 +13,7 @@ PLEASE UPDATE TO THE NEWEST VERSION!
 If using only SINGLE nozzle, please DISABLE UNUSED EXTRUDER before slicing to avoid heating up both nozzles and printing brim/skirt/raft with a different extruder!
 When using dual extrusion it's recommended to use ooze shield. Also use prime tower for the cleanest result, but it will significantly increase printing time and result in many tool changes due to dual extrusion implementation in Cura.
 
-Remember - Extruder 1 is RIGHT, Extruder 2 is LEFT! 
+**Remember - Extruder 1 is RIGHT, Extruder 2 is LEFT!** 
 
 Please, carefully read both Installation and Post Install sections below.
 
