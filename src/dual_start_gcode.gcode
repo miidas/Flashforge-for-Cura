@@ -12,9 +12,9 @@ G1 X150 Y-70 Z30 F9000 ; move to wait position right hand side of the table
 G130 X20 Y20 Z20 A20 B20 ; lower stepper Vrefs while heating
 M127
 M140 S{material_bed_temperature, initial_extruder_nr} T0 ; set bed temperature
-M134 T0 ; stabilize bed temperature
 M104 S{material_print_temperature_layer_0, 0} T0 ; set right extruder temp
 M104 S{material_print_temperature_layer_0, 1} T1 ; set left extruder temp
+M134 T0 ; stabilize bed temperature
 M133 T0 ; stabilize right extruder temperature
 M133 T1 ; stabilize left extruder temperature
 G130 X127 Y127 Z40 A127 B127 ; default stepper Vrefs
