@@ -43,10 +43,10 @@
             "value": "machine_depth/2 - 1"
         },
         "initial_pos_gcode": {
-            "default_value": "G1 X-110 Y-70 Z30 F3500 ; move to wait position left hand side of the table\\n"
+            "default_value": "G1 X-110 Y-70 Z30 F3500 ; move to wait position left hand side of the table\n"
         },
         "nozzle_wipe_gcode": {
-            "default_value": "G1 X-140 Y-70 F9000 ; reposition nozzle\\nG1 X-100 Y-70 E25 F300 ; purge nozzle\\nG1 X-110 Y-70 Z0.15 F1200 ; slow wipe\\nG1 X-100 Y-70 Z0.5 F1200 ; lift"
+            "default_value": "G1 X-140 Y-70 F9000 ; reposition nozzle\nG1 X-100 Y-70 E25 F300 ; purge nozzle\nG1 X-110 Y-70 Z0.15 F1200 ; slow wipe\nG1 X-100 Y-70 Z0.5 F1200 ; lift"
         }
     }
 }

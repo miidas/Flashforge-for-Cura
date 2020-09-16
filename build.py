@@ -2,7 +2,7 @@ import json
 
 def loadGcode(path):
   with open(path) as f:
-    lines = f.read().replace("\n", "\\n")
+    lines = f.read()
   return lines
 
 def loadJson(path):
