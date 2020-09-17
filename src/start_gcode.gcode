@@ -15,7 +15,7 @@ M140 S{material_bed_temperature, initial_extruder_nr} T0 ; set bed temperature
 M104 S{material_print_temperature_layer_0, initial_extruder_nr} T{initial_extruder_nr} ; set left or right extruder temperature
 M134 T0 ; stabilize bed temperature
 M133 T{initial_extruder_nr} ; stabilize left or right extruder temperature
-G130 X127 Y127 Z40 A127 B127 ; default stepper Vrefs
+G130 X120 Y120 Z40 A100 B100 ; default stepper Vrefs
 G92 A0 B0 ; zero extruders
 G1 Z0.4 ; position nozzle
 M135 T{initial_extruder_nr} ; left or right tool
