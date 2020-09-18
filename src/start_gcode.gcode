@@ -1,11 +1,11 @@
 ; **** FlashForge Creator Pro PRINTER start.gcode for using left or right extruder ****
 M83 ; relative extrusion mode
 M73 P0 ; enable build progress
-G162 X Y F360 ; home XY maximum
-G161 Z F140 ; home Z minimum
+G162 X Y F3000 ; home XY maximum
+G161 Z F1200 ; home Z minimum
 G92 Z-5 ; set Z to -5
 G1 Z0 ; move Z to 0
-G161 Z F80 ; home Z slowly
+G161 Z F100 ; home Z slowly
 M132 X Y Z A B ; recall home offsets
 M135 T0 ; load right extruder offsets
 {initial_pos_gcode, initial_extruder_nr}
